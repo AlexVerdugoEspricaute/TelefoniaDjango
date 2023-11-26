@@ -1,0 +1,28 @@
+/* Definición de variables de color */
+:root {
+    --text: #000000; /* Color de texto principal */
+    --text-alternate: #000000b2; /* Color de texto alternativo (puede usarse como fondo en algunos casos) */
+    --background: rgb(212, 244, 250); /* Color de fondo principal */
+    --primary: #8df7f7; /* Color primario, cambié el tono de azul a celeste */
+    --primary-hover: #f5f5f5; /* Color primario al pasar el mouse, puedes ajustar el tono según tu preferencia */
+    --secondary: #872020; /* Color secundario */
+    --accent: #e3f8fc; /* Color de acento (puede usarse para resaltar elementos) */
+}
+
+/* Estilos generales para el cuerpo del documento HTML y la página */
+html {
+    background-color: var(--background); /* Establece el color de fondo principal usando la variable --background */
+}
+
+/* Estilos específicos para el botón con ID 'CTA' */
+#CTA {
+    background-color: var(--primary) !important; /* Establece el color de fondo del botón usando la variable --primary */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+    color: var(--text-alternate); /* Establece el color del texto usando la variable --text-alternate */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin: 4px 2px; /* Ajusta los márgenes del botón */
+    padding: 10px 25px; /* Ajusta el relleno del botón */
+    text-decoration: none; /* Elimina la decoración de subrayado del texto */
+}
+

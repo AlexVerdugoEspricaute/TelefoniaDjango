@@ -1,0 +1,29 @@
+/* Añade estilos para la tabla */
+.table {
+    border-radius: 15px; /* Agrega bordes redondeados */
+    overflow: hidden;   /* Oculta cualquier contenido que se desborde */
+}
+
+/* Estilos para las filas impares para hacer la tabla más legible */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--accent); /* Cambia el color de fondo para las filas impares */
+}
+
+/* Estilos para las celdas de la cabecera */
+.table thead th {
+    background-color: var(--primary);  /* Color de fondo de la cabecera */
+    color: var(--text-alternate);      /* Color del texto en la cabecera */
+}
+
+/* Estilos para el pie de página de la tabla */
+.table tfoot {
+    background-color: var(--accent);  /* Color de fondo del pie de página */
+}
+
+/* Cambia el color del texto de la tabla para mejorar la legibilidad */
+.table tbody td, .table tfoot th {
+    color: var(--text);
+}
+body , html{
+    background-color: #e3f8fc;
+}
