@@ -5,10 +5,11 @@ Aplicacion web de sistema de tarificación telefónica creado con django, mysql,
 <div align="center">
   <img  width="80%" height="40%" src="https://i.imgur.com/7qWOnl8.png" alt="Banner">
 </div>
-
+<br>
 <div align="center">
   <img  width="80%" height="40%" src="https://i.imgur.com/7v8Uf0B.png" alt="Banner">
 </div>
+<br>
 <div align="center">
   <img  width="80%" height="40%" src="https://i.imgur.com/GvNv4kT.png" alt="Banner">
 </div>
